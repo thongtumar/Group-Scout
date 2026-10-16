@@ -8,3 +8,6 @@ __pycache__/
 !.env.example
 .openai/hosting.json
 *.zip
+
+# Local Netlify folder
+.netlify
