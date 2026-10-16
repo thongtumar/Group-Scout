@@ -46,4 +46,6 @@ Bản nháp trên tab nằm riêng với dữ liệu đã xác nhận; hãy lưu
 
 Tệp `.openai/hosting.example.json` chỉ là mẫu cấu hình phục vụ thư mục `dist`. Mã định danh của Site hiện tại và lịch sử Git không được đưa vào ZIP. Không đổi cấu hình Site đang chạy chỉ để đưa source lên GitHub.
 
+Trên Netlify, tệp `netlify.toml` khai báo thư mục xuất bản là `dist` nên trang chủ hiển thị đúng thay vì lỗi 404. Mỗi lần đẩy thay đổi lên nhánh `main`, Netlify tự deploy lại. Nếu một lần deploy bị bỏ qua (ví dụ do tài khoản hết credit), sau khi khắc phục hãy vào **Deploys → Trigger deploy → Deploy project** để xuất bản lại.
+
 Tham khảo `README.md` để biết cấu trúc, tính năng và giới hạn dữ liệu.
