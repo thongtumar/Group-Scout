@@ -1,0 +1,5 @@
+GroupScout source export
+Source commit: 0a614e3b85887aaf27376ca41e92f1d3baf4519c
+Application files in dist/ match this commit.
+Export additions: Vietnamese GitHub guide, portable hosting example and adjusted README/.gitignore.
+No Git history, repository credentials or browser-stored survey data included.
